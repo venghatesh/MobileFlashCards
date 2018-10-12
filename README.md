@@ -7,9 +7,9 @@ This is the project for Udacity's React Native course.
 1. Clone or download this repository
 2. `npm install`
 3. `npm start`
-4. Follow instructions from Expo - the app can be run using the iOS emulator, or on an iPhone & the [Expo Application](https://expo.io)
+4. Follow instructions from Expo - the app can be run using the iOS emulator, or on an iPhone & the [Expo Application](https://expo.io). 
 
-Application can also be started using expo start.
+Application can also be started using expo start on command line.
 
 Requirement Specs
 
@@ -38,7 +38,7 @@ Design :
 
     d) NEW DECK VIEW : Provides view to create a new deck by entering a title. Once clicked , the user is provided facility to        go back to the deck list view or add question to the newly created deck.
    
-   e) NEW QUESTION VIEW : Provides view to add a question along with answer .
+    e) NEW QUESTION VIEW : Provides view to add a question along with answer .
 
 
 AsyncStorage database is used, with different helper methods.
@@ -51,7 +51,9 @@ AsyncStorage database is used, with different helper methods.
     The notification time and repeat are configurable in the expo API .
 
 The application is tested using expo (downloaded from google play store) and tested on Samsung Galaxy S6. It is also tested
-using xcode simulator on mac.  Application needs watchman so that any code changes done on Mac are  automatically reflected.
+using xcode simulator on mac.  Application needs watchman so that any code changes done on Mac are  automatically reflected. Expo does not work on Mac without watchman being installed. 
+
+Expo installation : https://docs.expo.io/versions/latest/introduction/installation
 
 Expo Version used : 29. It is very important that the expo version mentioned in the app.json and package.json are same, otherwise application will throw up error.
 React Native Version : 0.55.4
