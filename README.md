@@ -12,6 +12,7 @@ This is the project for Udacity's React Native course.
 Application can also be started using expo start.
 
 Requirement Specs
+
 a) Allow users to create a deck which can hold an unlimited number of cards.
 
 b) Allow users to add a card to a specific deck.
@@ -27,6 +28,7 @@ f) Users should receive a notification to remind themselves to study if they hav
 Design :
 
  5 Views
+
     a) DECK LIST VIEW (Default view) - Displays cards along with their title , number of cards in each deck
 
     b) INDIVIDUAL DECK VIEW (Navigation through clicking on specific deck on Deck list view)- shows title of deck, number of
